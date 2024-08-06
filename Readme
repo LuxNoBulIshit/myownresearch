@@ -3,32 +3,54 @@
 Welcome to the repository of my research work. Here you'll find links to my articles, publications, and other related content.
 
 ## Articles
-1) Lateral Movement Using Internet Explorer DCOM Object and StdRegProv
-   https://medium.com/@VakninHai/lateral-movement-using-internet-explorer-dcom-object-and-stdregprov-4f11362650e5
 
-   In this article, I explore a novel method for lateral movement within a network by leveraging the Internet Explorer DCOM object in combination with the StdRegProv WMI class. 
-   The technique involves manipulating registry settings and exploiting DCOM objects to execute commands on remote systems without triggering traditional security alerts.
+- [Lateral Movement Using Internet Explorer DCOM Object and StdRegProv](https://medium.com/@VakninHai/lateral-movement-using-internet-explorer-dcom-object-and-stdregprov-4f11362650e5)  
+  In this article, I explore a novel method for lateral movement within a network by leveraging the Internet Explorer DCOM object in combination with the `StdRegProv` WMI class. The technique involves manipulating registry settings and exploiting DCOM objects to execute commands on remote systems without triggering traditional security alerts. This piece delves into the technical details, step-by-step execution, and potential defenses against this attack vector, providing insights into the challenges of securing modern enterprise environments against advanced threat actors.
 
+- [Unveiling the Surprising Security Aspect of Cortex EDR](https://www.linkedin.com/pulse/unveiling-surprising-security-aspect-cortex-edr-hai-vaknin-hjk0f/?trackingId=fBp0SvKLeS537U7guaPTIg%3D%3D)  
+  In this article, I delve into the unexpected security features and capabilities of Cortex EDR (Endpoint Detection and Response). I explore how its advanced analytics and threat detection mechanisms can be leveraged to enhance organizational security posture. By examining real-world scenarios and use cases, I highlight the unique strengths of Cortex EDR in identifying and mitigating complex threats. This piece also discusses best practices for deploying Cortex EDR effectively and offers insights into optimizing its performance for maximum security benefits.
 
+- [Not the Access You Asked For: How Azure Storage Account Read/Write Permissions Can Be Abused](https://medium.com/@tamirye94/not-the-access-you-asked-for-how-azure-storage-account-read-write-permissions-can-be-abused-75311103430f)  
+  In this article, I investigate the potential security risks associated with Azure Storage Account read/write permissions. The piece explores how improper permission settings can lead to unauthorized access and manipulation of data, resulting in significant security breaches. By examining real-world scenarios, I highlight how attackers can exploit these permissions to their advantage and offer best practices for securing Azure Storage Accounts against such threats. This article is essential for IT professionals and security experts looking to understand and mitigate risks associated with cloud storage services.
 
 ## Publications
 
-- [Publication Title 1](https://link-to-publication1.com)  
-  A brief overview of the publication, mentioning its significance and impact.
+- [D-Link Security Advisory: Unauthorized Remote Access Vulnerability (SAP10405)](https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10405)  
+  This security advisory addresses a critical vulnerability (SAP10405) found in specific D-Link router models, which could allow unauthorized remote access to the device. The advisory outlines the affected products, potential impacts, and recommended mitigation steps. D-Link emphasizes the importance of applying firmware updates to protect against exploitation. The publication provides detailed instructions for patching affected devices and includes additional resources for enhancing network security. This document is essential for users and administrators to safeguard their networks against potential threats related to this vulnerability.
 
-- [Publication Title 2](https://link-to-publication2.com)  
-  A summary of the publication, including its main themes and findings.
+## CVE Records
+
+- **[CVE-2024-38437](https://www.cve.org/CVERecord?id=CVE-2024-38437):**  
+  This vulnerability involves a security flaw in Dlink router (authentication bypass). 
+
+- **[CVE-2024-38438](https://www.cve.org/CVERecord?id=CVE-2024-38438):**  
+  This record describes a critical vulnerability that may result in Dlink router(authentication bypass).
+
+## LOLBAS Project Entries
+
+- [LOLBAS: Ilasm.exe - Leveraging Intermediate Language Assembler for Defense Evasion](https://lolbas-project.github.io/lolbas/Binaries/Ilasm/)  
+  Ilasm.exe is a part of the .NET framework used to assemble intermediate language code into an executable file. This entry in the LOLBAS project describes how attackers can misuse Ilasm.exe for defense evasion and execute arbitrary code under the guise of legitimate operations. The page includes examples of malicious usage, detection techniques, and recommended mitigation strategies.
+
+- [LOLBAS: Vbc.exe - Visual Basic Compiler as a Living Off the Land Tool](https://lolbas-project.github.io/lolbas/Binaries/Vbc/)  
+  Vbc.exe, the Visual Basic Compiler, can be exploited by attackers to compile and execute malicious VB.NET code directly on a target system. This entry explores the potential abuses of Vbc.exe, offering insights into how it can be used to bypass security controls. It provides examples of offensive techniques, along with detection and prevention measures.
+
+- [LOLBAS: Pnputil.exe - Device Driver Management for System Compromise](https://lolbas-project.github.io/lolbas/Binaries/Pnputil/)  
+  Pnputil.exe is a utility for managing device drivers on Windows systems. In the context of the LOLBAS project, it is shown how attackers can utilize Pnputil.exe to load unsigned drivers and establish persistence. The publication details potential attack vectors, examples of usage in malicious contexts, and defensive measures to protect against such exploits.
+
+- [LOLBAS: Diantz.exe - CAB File Manipulation for Malicious Deployment](https://lolbas-project.github.io/lolbas/Binaries/Diantz/)  
+  Diantz.exe, a tool for creating and managing CAB files, can be repurposed by adversaries to deploy and execute malicious payloads. This entry outlines the methods by which Diantz.exe can be used for lateral movement and payload delivery, providing real-world examples and guidance for detecting and mitigating such threats.
+
+- [LOLBAS: Extrac32.exe - Exploiting File Extraction for Adversarial Gains](https://lolbas-project.github.io/lolbas/Binaries/Extrac32/)  
+  Extrac32.exe is typically used for extracting files from CAB archives but can be exploited for executing malicious commands. This LOLBAS entry highlights how Extrac32.exe can be abused in attack scenarios, offering examples of exploitation techniques and strategies for effective detection and mitigation.
+
+- [LOLBAS: Desk.cpl - Control Panel Item as a Vector for Attack](https://lolbas-project.github.io/lolbas/Libraries/Desk/)  
+  Desk.cpl is a Control Panel item related to display settings, which can be leveraged by attackers to execute code within a trusted process. This entry provides an overview of how Desk.cpl can be utilized for malicious purposes, detailing exploitation techniques, detection mechanisms, and preventive measures to counteract this method.
 
 ## Projects
 
-- [Project Title 1](https://link-to-project1.com)  
-  A short description of the project, explaining its goals and outcomes.
-
-- [Project Title 2](https://link-to-project2.com)  
-  A concise explanation of the project, detailing its objectives and achievements.
+- [FuckSmug: Smug_Fu3k - Project Overview](https://github.com/LuxNoBulIshit/Smug_Fu3k)  
+  FuckSmug is a project aimed at converting any binary into dropper.
 
 ## About Me
 
-I am a passionate researcher focused on [your field or area of expertise]. My work explores [briefly describe your research interests], and I aim to contribute to [mention your goals or vision].
-
-Feel free to reach out if you have any questions or want to discuss my research further. You can contact me at [your email address].
+I am a security researcher with a passion for Windows security and defensive products, as well as an active contributor to the LOLBAS project. Currently, I am focusing on Azure security, where I explore innovative solutions to enhance cloud security and mitigate threats.

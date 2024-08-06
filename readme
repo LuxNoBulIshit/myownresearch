@@ -1,0 +1,34 @@
+# My Own Research
+
+Welcome to the repository of my research work. Here you'll find links to my articles, publications, and other related content.
+
+## Articles
+1) Lateral Movement Using Internet Explorer DCOM Object and StdRegProv
+   https://medium.com/@VakninHai/lateral-movement-using-internet-explorer-dcom-object-and-stdregprov-4f11362650e5
+
+   In this article, I explore a novel method for lateral movement within a network by leveraging the Internet Explorer DCOM object in combination with the StdRegProv WMI class. 
+   The technique involves manipulating registry settings and exploiting DCOM objects to execute commands on remote systems without triggering traditional security alerts.
+
+
+
+## Publications
+
+- [Publication Title 1](https://link-to-publication1.com)  
+  A brief overview of the publication, mentioning its significance and impact.
+
+- [Publication Title 2](https://link-to-publication2.com)  
+  A summary of the publication, including its main themes and findings.
+
+## Projects
+
+- [Project Title 1](https://link-to-project1.com)  
+  A short description of the project, explaining its goals and outcomes.
+
+- [Project Title 2](https://link-to-project2.com)  
+  A concise explanation of the project, detailing its objectives and achievements.
+
+## About Me
+
+I am a passionate researcher focused on [your field or area of expertise]. My work explores [briefly describe your research interests], and I aim to contribute to [mention your goals or vision].
+
+Feel free to reach out if you have any questions or want to discuss my research further. You can contact me at [your email address].
